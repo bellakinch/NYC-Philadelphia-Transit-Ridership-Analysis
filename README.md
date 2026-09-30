@@ -13,6 +13,7 @@ Analyze how different transportation modes (bus, subway, commuter rail) are used
 Suggest improvements to public transportation systems in the end? Ex - public opinions biggest issues with public transportation - what needs to be improved based on what we found in the data analyzing) Philadelphia biggest issue vs. NYC 
 
 Literature Review: 
+
 ● Previous Research: 
 Previous research on urban transportation systems suggests that several economic and social factors influence public transit ridership. Factors such as
 changes in commuting preferences
@@ -24,6 +25,7 @@ trends, rather than focusing only on New York City and Philadelphia, helps provi
 broader explanation of urban transportation patterns and commuting behavior.
 
 Data Understanding and Preparation 
+
 ● Dataset Specification: 
 
 Data Set 1. NYC Transit Data: Data from the Metropolitan Transportation Authority includes monthly ridership statistics for multiple transit services including:
