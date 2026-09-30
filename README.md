@@ -2,6 +2,7 @@
 Data analysis comparing NYC and Philadelphia transit ridership from 2021–2025 using per-capita analysis, t-tests, and linear regression. 
 
 Business Understanding 
+
 ● Business Problem: 
 Public transportation systems play a critical role in supporting economic activity, commuting efficiency, and urban mobility in major cities. Understanding how the public use different transit modes can provide valuable insight for transportation agencies when making operational and policy decisions.
 This project aims to compare public transit ridership between New York City and Philadelphia by analyzing monthly ridership data from their major transit systems. By examining usage patterns across different transportation modes such as buses, subways, and regional rail, the project will identify similarities and differences in how residents of the two cities use public transportation. By evaluating transit usage patterns, the project seeks to better understand how transit systems perform in two major metropolitan areas with different population sizes, infrastructure systems, and commuting behaviors.
