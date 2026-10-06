@@ -3,7 +3,7 @@ Data analysis comparing NYC and Philadelphia transit ridership from 2021–2025 
 
 Business Understanding 
 
-● Business Problem: 
+- Business Problem: 
 Public transportation systems play a critical role in supporting economic activity, commuting efficiency, and urban mobility in major cities. Understanding how the public use different transit modes can provide valuable insight for transportation agencies when making operational and policy decisions.
 This project aims to compare public transit ridership between New York City and Philadelphia by analyzing monthly ridership data from their major transit systems. By examining usage patterns across different transportation modes such as buses, subways, and regional rail, the project will identify similarities and differences in how residents of the two cities use public transportation. By evaluating transit usage patterns, the project seeks to better understand how transit systems perform in two major metropolitan areas with different population sizes, infrastructure systems, and commuting behaviors.
 
@@ -14,7 +14,7 @@ Suggest improvements to public transportation systems in the end? Ex - public op
 
 Literature Review: 
 
-● Previous Research: 
+- Previous Research: 
 Previous research on urban transportation systems suggests that several economic and social factors influence public transit ridership. Factors such as
 changes in commuting preferences
 economic conditions
@@ -26,7 +26,7 @@ broader explanation of urban transportation patterns and commuting behavior.
 
 Data Understanding and Preparation 
 
-● Dataset Specification: 
+- Dataset Specification: 
 
 Data Set 1. NYC Transit Data: Data from the Metropolitan Transportation Authority includes monthly ridership statistics for multiple transit services including:
 Subway
@@ -42,7 +42,7 @@ Buses
 Regional Rail 
 Subway + Trolley Systems 
 
-● Initial Data Exploration:
+- Initial Data Exploration:
 Data Cleaning: 
 Converting dates into a consistent monthly format
 Standardizing column names so we can compare each line of transportation (Subway Ridership in July 2021 NYC vs. Subway Ridership in July 2021 SEPTA) 
@@ -61,7 +61,7 @@ Notes - Will probably have to make 4 new data frames based on mode ride ex-
 New_df_trains = Column 1 - nyc trains vs column 2 septa trains 
 New_df_buses = Column 2 - nyc buses vs column 2 septa buses 
 
-● Feature Selection/Engineering: 
+- Feature Selection/Engineering: 
 For this project, we will focus on selecting the most relevant variables from the datasets that help explain public transit usage. The main variables we plan to use include date (month and year), transit mode (bus, subway, or rail), and ridership counts. These variables are directly related to the goal of the project, which is to compare how people use public transportation in New York City and Philadelphia. By focusing on these key variables, we can better track ridership patterns and compare transportation usage between the two cities.
 In addition to selecting important variables, we may also create new features to improve the analysis. For example, we may calculate monthly ridership totals for each transit mode, measure percentage changes in ridership from one month to the next, or group data by year or season to identify long-term trends. These new features will help make patterns in the data easier to see and will allow us to compare transit usage more clearly. Creating these features will help us better understand how ridership changes over time and provide useful insights when comparing the public transportation systems in both cities.
 4. Methodology: 
